@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswitch",
+  "version": "${version}",
+  "name": "ElytraSwitch",
+  "description": "",
+  "authors": [
+    "efojug"
+  ],
+  "contact": {},
+  "license": "Apache-2.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.efojug.elytraswitch.client.ElytraSwitchClient"
+    ]
+  },
+  "mixins": [
+    "ElytraSwitch.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
