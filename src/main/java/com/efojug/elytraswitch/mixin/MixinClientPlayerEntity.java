@@ -1,7 +1,7 @@
 package com.efojug.elytraswitch.mixin;
 
 import com.mojang.authlib.GameProfile;
-//import com.plusls.ommc.config.Configs;
+//import com.efojug.elytraswitch.config.Configs;
 import com.efojug.elytraswitch.ElytraSwitch;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
